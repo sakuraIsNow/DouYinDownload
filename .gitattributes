@@ -1,2 +1,2 @@
-*.css linguist-language=Python
-*.js linguist-language=Python
+*.css linguist-language=false
+*.js linguist-language=false
