@@ -1,0 +1,7 @@
+browser_cookie3==0.19.1
+Django==5.0.6
+f2==0.0.1.5
+filetype==1.2.0
+opencv_python==4.9.0.80
+Pillow==10.3.0
+Requests==2.32.3

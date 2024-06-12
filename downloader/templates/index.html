@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html style="--vh: 3.19px;">
+<head>
+    {% load static %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DouYinDownload </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style-liberty.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.default.css' %}" id="theme-stylesheet">
+    <link rel="stylesheet" href="{% static 'vendor/glightbox/css/glightbox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'top/ss.css' %}">
+
+</head>
+<body>
+<div class = "d-flex justify-content-center">
+<div class = "rect">
+  <span class = "rectSt"></span>
+  <span class = "rectStt"></span>
+  <span class = "rectSttt"></span>
+  <span class = "rectStttt"></span>
+  <span class="fs-5">DouYinDownload</span>
+</div></div>
+
+    <div class="d-flex justify-content-center" style="margin-top: 20px">
+        <form action="{% url 'pad' %}" method="post" class="search-box d-flex align-items-center position-relative">
+            {% csrf_token %}
+            <div class="input-search" >
+                <input type="text" placeholder="DOUYIN LINK" id="dy_link" name="dy_link" required="required" autofocus="" class="search-popup" style="width:120%;border:solid;">
+            </div>
+            <button type="submit" class="btn search-btn" title="right" style="position: relative;"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+</body>
+</html>
