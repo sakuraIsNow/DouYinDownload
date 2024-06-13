@@ -54,6 +54,10 @@ python manage.py runserver
   搜索完成后点击页面视频或者图片完成客户端的下载
 </div>
 
+## ❗注意
+搜索后终端出现warning第几次访问为空并最后访问报错，均为cookie的问题  
+此时请更换cookie
+
 ## 💾功能
 - DouYin视频或图文下载
 - find.py可获取页面访问cookie(提前关闭浏览器)
