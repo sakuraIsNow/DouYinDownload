@@ -65,7 +65,7 @@ python manage.py runserver
 ## 📰版权声明
 <div>MIT License</div>
 
-<div>Copyright (c) 2021 JohnserfSeed</div>
+<div>Copyright (c) 2024 sakuraIsNow</div>
 
 <div>此项目的源代码在 MIT 许可证下授权，有关详细信息，请参阅 <a href = "https://github.com/sakuraIsNow/DouYinDownload/edit/main/LICENSE">LICENSE</a> 文件。</div>
 
