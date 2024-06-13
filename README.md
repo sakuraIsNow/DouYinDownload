@@ -20,10 +20,29 @@
 ```
 
 ## 🖱️初步使用
-<div>需要将你的cookie和服务下载路径进行配置，在/downloader/douYin/config.py文件中进行配置
+<div>
+需要将你的cookie和服务下载路径进行配置，在/downloader/douYin/config.py文件中进行配置
 
 ```bash
 cookie = r'your cookie here' # 你的cookie 最好使用登陆的cookie 游客cookie不稳定
 pathDir = r'your path here' # 服务源文件下载文件夹路径,保证文件夹存在
 ```
-cookie最好使用登陆的cookie，游客状态下的cookie不稳定</div>
+cookie最好使用登陆的cookie，游客状态下的cookie不稳定
+</div>
+<div>
+可以在/douyinDownloadServer/setting.py中添加访问ip
+
+```bash
+ALLOWED_HOSTS = []
+```
+不添加默认为127.0.0.1
+</div>
+<div>
+配置完后运行manage.py文件
+
+```bash
+python manage.py runserver
+```
+如果在ALLOWED_HOSTS中添加了ip，在上述运行命令中需要添加ip，默认为127.0.0.1:8000
+</div>
+
