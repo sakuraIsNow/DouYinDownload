@@ -46,3 +46,5 @@ python manage.py runserver
 如果在ALLOWED_HOSTS中添加了ip，在上述运行命令中需要添加ip，默认为127.0.0.1:8000
 </div>
 
+## 💾功能
+- DouYin 接口
