@@ -14,7 +14,8 @@
 <div>建议使用python3.11.1版本，<a href = "https://www.python.org/">可在Python官网下载</a></div>
 <div>其他版本运行可能报错</div>
 
+
 ```bash
-python manage.py startapp downloader
+使用pip安装： pip install -r requirements.txt
 ```
 
