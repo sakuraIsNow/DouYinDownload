@@ -65,3 +65,9 @@ python manage.py runserver
 <div>Copyright (c) 2021 JohnserfSeed</div>
 
 <div>此项目的源代码在 MIT 许可证下授权，有关详细信息，请参阅 <a href = "https://github.com/sakuraIsNow/DouYinDownload/edit/main/LICENSE">LICENSE</a> 文件。</div>
+
+## ❤️‍🔥感谢
+<div><a href = "https://www.python.org/">Python</a></div>  
+<div><a href = "https://github.com/Johnserf-Seed/TikTokDownload">f2</a></div>
+<div><a href = "https://github.com/django/django">Django</a></div>
+<div><a href = "https://github.com/globocom/m3u8">m3u8</a></div>
