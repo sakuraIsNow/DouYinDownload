@@ -11,11 +11,19 @@
 </div>
 
 ## 🖥️Python环境配置
-<div>建议使用python3.11.1版本，<a href = "https://www.python.org/">可在Python官网下载</a></div>
+<div>建议使用python3.11.1版本或者更高版本，<a href = "https://www.python.org/">可在Python官网下载</a></div>
 <div>其他版本运行可能报错</div>
-使用pip安装：
+安装python后，使用pip安装所需要的依赖库：
 
 ```bash
  pip install -r requirements.txt
+```
+
+## 🖱️初步使用
+需要将你的cookie和服务下载路径进行配置，在/downloader/douYin/config.py文件中进行配置
+
+```bash
+cookie = r'your cookie here' # 你的cookie 最好使用登陆的cookie 游客cookie不稳定
+pathDir = r'your path here' # 服务源文件下载文件夹路径,保证文件夹存在
 ```
 
