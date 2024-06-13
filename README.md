@@ -1,7 +1,7 @@
 # <p align="center"><strong>DouYinDownload</strong></p>
 <h3 align="center">抖音无水印视频图片下载</h3>
 <div align="center">
-  <img src="https://img.shields.io/badge/License-MIT-blue" >
+<a href = "https://github.com/sakuraIsNow/DouYinDownload/edit/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue" ></a>
 </div>
 
 <div align="center">
