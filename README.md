@@ -74,3 +74,8 @@ python manage.py runserver
 <div><a href = "https://github.com/Johnserf-Seed/TikTokDownload">f2</a></div>
 <div><a href = "https://github.com/django/django">Django</a></div>
 <div><a href = "https://github.com/globocom/m3u8">m3u8</a></div>
+
+## 👨‍💻贡献者
+<a href="https://github.com/sakuraIsNow/DouYinDownload/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sakuraIsNow/DouYinDownload" />
+</a>
