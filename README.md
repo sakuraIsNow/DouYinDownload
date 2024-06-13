@@ -27,7 +27,10 @@
 cookie = r'your cookie here' # 你的cookie 最好使用登陆的cookie 游客cookie不稳定
 pathDir = r'your path here' # 服务源文件下载文件夹路径,保证文件夹存在
 ```
-cookie最好使用登陆的cookie，游客状态下的cookie不稳定
+cookie最好使用DouYin登陆的cookie，游客状态下的cookie不稳定
+</div>
+<div>
+  cookie只保存在本地，不会上传以及用于非法用途等
 </div>
 <div>
 可以在/douyinDownloadServer/setting.py中添加访问ip
@@ -45,6 +48,20 @@ python manage.py runserver
 ```
 如果在ALLOWED_HOSTS中添加了ip，在上述运行命令中需要添加ip，默认为127.0.0.1:8000
 </div>
+<div>
+  启动django服务后，在浏览器访问页面的搜索框中输入DouYin视频或图文链接点击搜索
+</div>
+<div>
+  搜索完成后点击页面视频或者图片完成客户端的下载
+</div>
 
 ## 💾功能
-- DouYin 接口
+- DouYin视频或图文下载
+- find.py可获取页面访问cookie(提前关闭浏览器)
+
+## 📰版权声明
+<div>MIT License</div>
+
+<div>Copyright (c) 2021 JohnserfSeed</div>
+
+<div>此项目的源代码在 MIT 许可证下授权，有关详细信息，请参阅 <a href = "https://github.com/sakuraIsNow/DouYinDownload/edit/main/LICENSE">LICENSE</a> 文件。</div>
