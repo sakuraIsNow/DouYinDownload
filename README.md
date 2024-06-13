@@ -3,6 +3,8 @@
 <div align="center">
   <a href = "https://github.com/sakuraIsNow/DouYinDownload/edit/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"></a>
   <img src="https://img.shields.io/github/repo-size/sakuraIsNow/DouYinDownload?style=for-the-badge&color=8A2BE2">
+  <img src="https://img.shields.io/github/languages/top/sakuraIsNow/DouYinDownload?style=for-the-badge&color=32CD32">
+  <img src="https://img.shields.io/badge/PYTHON-V3.11.1-FFD700?style=for-the-badge">
 </div>
 
 <div align="center">
