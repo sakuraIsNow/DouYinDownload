@@ -11,6 +11,8 @@
 </div>
 
 ## 🖥️Python环境配置
+建议使用python3.11.1版本，其他版本运行可能报错
+可在Python官网下载
 ```bash
 python manage.py startapp downloader
 ```
