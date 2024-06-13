@@ -10,6 +10,8 @@
 <img src="https://github.com/sakuraIsNow/DouYinDownload/blob/main/bg/search.png" width=100% height=100%>
 </div>
 
-## 环境配置/Environment
-
+## 🖥️Python环境配置
+```bash
+python manage.py startapp downloader
+```
 
